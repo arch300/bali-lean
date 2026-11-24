@@ -1,0 +1,712 @@
+# Full build of lean/GappedPfaffian.lean with Stage 10 (Bali.GPOpen), 2026-11-23
+# cmd: nice -n 19 lake env lean -j 16 P699/GappedPfaffian.lean (32 cores, 16 threads)
+# source: 4779 lines; no 'sorry', no 'axiom' in source
+P699/GappedPfaffian.lean:51:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:51:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:56:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:56:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:122:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:190:43: warning: This simp argument is unused:
+  coeff_C_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Finset.sum_range_succ, Finset.sum_range_zero, coeff_add, coeff_sub, coeff_one, coeff_X_pow,
+    coeff_X, coeff_ofNat_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:215:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:215:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:217:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:217:32: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:291:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:291:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:340:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:347:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:347:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:405:37: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Bali.GP.four_sign' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.M_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.sum_mul_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lemma2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.brB_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lemma1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.spec_odd_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.spec_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.spec_even_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.spec_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.coeff_Fp_MM' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.central_choose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.central' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.central_fact' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:467:0: warning: automatically included section variable(s) unused in theorem `Bali.GP.poch_zero`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+P699/GappedPfaffian.lean:469:0: warning: automatically included section variable(s) unused in theorem `Bali.GP.poch_succ`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+P699/GappedPfaffian.lean:472:0: warning: automatically included section variable(s) unused in theorem `Bali.GP.poch_succ_left`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+P699/GappedPfaffian.lean:490:0: warning: automatically included section variable(s) unused in theorem `Bali.GP.poch_negnat_desc`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+P699/GappedPfaffian.lean:673:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:678:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:684:77: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:686:52: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'Bali.GP.pfaff_saalschutz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.chu_vandermonde' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.pfaff_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.pfaff_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.abs_central_L1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.abs_central_L0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.central_L1_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.central_L0_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.L0_beta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.Om_anti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.Om_D' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lemma3b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lemma3c_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lemma3c_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.T_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.Om_even_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.Om_odd_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lem_ker_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lem_ker_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lem_orth_L1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.lem_orth_L0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.dK_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.thmK_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.thmK_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:1571:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1571:52: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1572:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1572:52: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1650:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1650:34: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1651:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1651:34: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1654:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1654:34: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1655:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1655:34: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1663:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1670:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1651:71: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:1655:71: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:1650:67: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+P699/GappedPfaffian.lean:1654:67: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+P699/GappedPfaffian.lean:1650:67: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1651:67: warning: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1651:71: warning: Unused tactic linter: `omega` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1654:67: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1655:67: warning: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1655:71: warning: Unused tactic linter: `omega` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1706:53: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+P699/GappedPfaffian.lean:1706:53: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:1755:13: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1755:66: warning: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+P699/GappedPfaffian.lean:1755:76: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+P699/GappedPfaffian.lean:1755:13: warning: This simp argument is unused:
+  if_pos rfl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Nat.add_sub_cancel, Nat.add_one_ne_zero, if_false, if_true, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:1755:85: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_pos rfl, Nat.add_sub_cancel, Nat.add_one_ne_zero, if_false, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:1766:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:1772:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1793:69: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:1788:53: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:1788:53: warning: Unused tactic linter: `ring` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:2000:6: warning: Unused tactic linter: `ring` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Bali.GP.pf_eq_pfS' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.pfS_tw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.pfS_rep' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.adj_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.even_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.odd_ker_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_eq_pf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_of_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_i_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_i_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.step4_L1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.step4_L0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.one_sub_pow_rT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.eps_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_chain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_sum_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_sum_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_even_poch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_odd_poch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.L1_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.L0_rho' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.poch_m1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.poch_m0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.gK_p' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.gK_q' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_even_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.z_odd_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_even_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_odd_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W0_pos_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W0_pos_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_even'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.W_pos_odd'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_z_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_z_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_i_even'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.ratio_i_odd'' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:2649:13: warning: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_add, mul_zero, Nat.choose_zero_right, Nat.cast_one, mul_one, poch_zero, one_pow, Nat.sub_zero,
+    show j + 2 * k + 1 - 2 * k = j + 1 by omega, show j + 2 * k + 1 - k = j + k + 1 by omega] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:2722:13: warning: This simp argument is unused:
+  Nat.cast_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_add, mul_zero, Nat.choose_zero_right, Nat.cast_one, mul_one, poch_zero, one_pow, Nat.sub_zero,
+    show j + 2 * k + 1 - 2 * k = j + 1 by omega, show j + 1 - 1 = j by omega,
+    show j + 2 * k + 1 - k = j + k + 1 by omega, show j + k + 1 - 1 = j + k by omega] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Bali.GP.corB_odd_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.corB_odd_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.corB_even_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.corB_even_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:2811:28: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+P699/GappedPfaffian.lean:2838:45: warning: `Equiv.Perm.mul_refl` has been deprecated: use `pull_end` simpset instead
+P699/GappedPfaffian.lean:2853:13: warning: `Equiv.apply_eq_iff_eq_symm_apply` has been deprecated: Use `Equiv.eq_symm_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Sort u_1} {β : Sort u_2} (e : α ≃ β) {x : β} {y : α}, y = e.symm x ↔ e y = x
+instead of
+  ∀ {α : Sort u} {β : Sort v} {x : α} {y : β} (f : α ≃ β), f x = y ↔ x = f.symm y
+P699/GappedPfaffian.lean:2903:44: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+P699/GappedPfaffian.lean:2912:15: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+P699/GappedPfaffian.lean:2919:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'Bali.PfB.pfF_eq_pf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.PfB.pfP_eq_pf' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:2963:63: warning: This simp argument is unused:
+  derivative_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [derivative_mul, derivative_pow, derivative_sub, derivative_one, derivative_X, pow_zero,
+    Nat.add_sub_cancel, map_natCast, Nat.cast_add, Nat.cast_one, Nat.cast_zero, map_zero, zero_mul, mul_zero, zero_add,
+    add_zero, map_add, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:2965:21: warning: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [derivative_mul, derivative_pow, derivative_sub, derivative_add, derivative_one, derivative_X,
+    pow_zero, Nat.add_sub_cancel, map_natCast, Nat.cast_add, Nat.cast_one, Nat.cast_zero, zero_mul, mul_zero, zero_add,
+    add_zero, map_add, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:3003:4: warning: Unused tactic linter: `push_cast at h ⊢` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3050:43: warning: This simp argument is unused:
+  eval_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [eval_mul, eval_C, eval_sub]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+P699/GappedPfaffian.lean:3060:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3061:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3103:33: warning: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  det_of_l̵i̲s̲L̲owerTriangular
+P699/GappedPfaffian.lean:3131:30: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3159:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3159:32: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3159:42: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3161:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3161:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3161:42: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3188:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3188:20: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3188:44: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3190:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3190:49: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3190:88: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3192:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3192:34: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3192:44: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3201:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3201:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3202:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3202:22: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3249:24: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+P699/GappedPfaffian.lean:3252:24: warning: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+P699/GappedPfaffian.lean:3283:91: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:3283:100: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:3283:64: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+P699/GappedPfaffian.lean:3283:64: warning: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3283:87: warning: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3283:91: warning: Unused tactic linter: `omega` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3283:100: warning: Unused tactic linter: `(norm_num <;> omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3290:43: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3294:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3294:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3288:80: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:3288:117: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:3288:140: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+P699/GappedPfaffian.lean:3288:80: warning: Unused tactic linter: `(exfalso; casesm* _ ∧ _ <;> omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3288:117: warning: Unused tactic linter: `(simp_all <;> omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3288:140: warning: Unused tactic linter: `(norm_num <;> omega)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:3336:36: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3344:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3363:6: warning: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  det_of_l̵i̲s̲L̲owerTriangular
+P699/GappedPfaffian.lean:3393:76: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3421:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3421:20: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3421:32: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3421:43: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3422:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3422:20: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3422:32: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3422:43: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3424:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3424:20: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3424:32: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3424:43: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3426:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3426:20: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3426:32: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3426:43: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3467:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3467:27: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3472:26: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:3472:45: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:3472:64: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'Bali.GPdB.K_EO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.EO_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.VB_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.VB_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.conjB_odd_dB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.conjB_even_dB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.conjB_odd_dB_UN' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPdB.conjB_even_dB_UN' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.Cab_u' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.adjv_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GP.adjv_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.Vn_beyond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.conjB_odd_all2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.conjB_even_all2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.kappa' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkwR_crB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkwR_crE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkwT_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkwT_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.tuple_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.Stup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkw56_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.bkw56_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:4129:50: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:4135:50: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+P699/GappedPfaffian.lean:4233:62: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:4250:62: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+P699/GappedPfaffian.lean:4231:4: warning: Unused tactic linter: `beta_reduce` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:4248:4: warning: Unused tactic linter: `beta_reduce` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Bali.GPOpen.knuth_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.knuth_G' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.ii_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.iii_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+P699/GappedPfaffian.lean:4575:2: warning: Unused tactic linter: `push_cast` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+P699/GappedPfaffian.lean:4641:2: warning: Unused tactic linter: `push_cast` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'Bali.GPOpen.iv_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Bali.GPOpen.iv_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit 0
